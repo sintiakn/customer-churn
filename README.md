@@ -65,7 +65,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 - `Churn` - Indicates whether the customer churned
 
 
-Conclusion
+# Conclusion
 As a data scientist at ConnectTel, I successfully developed a predictive model with a focus on minimizing false predictions for customers who are likely to churn. 
 
 The GradientBoosting model, after tuning and feature selection, showed the best overall performance with a recall score of 86%.However, the model exhibits weaknesses in predicting customers who should not churn. Significant variables in this model include contract month-to-month, tenure, monthly charges, senior citizen, and paperless billing.

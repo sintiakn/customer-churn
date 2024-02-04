@@ -68,7 +68,7 @@ https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
 # Conclusion
 As a data scientist at ConnectTel, I successfully developed a predictive model with a focus on minimizing false predictions for customers who are likely to churn. 
 
-The GradientBoosting model, after tuning and feature selection, showed the best overall performance with a recall score of 86%.However, the model exhibits weaknesses in predicting customers who should not churn. Significant variables in this model include contract month-to-month, tenure, monthly charges, senior citizen, and paperless billing.
+The Catboost model, after tuning and feature selection, showed the best overall performance with a recall score of 85%. However, the model exhibits weaknesses in predicting customers who should not churn. Significant variables in this model include contract month-to-month, tenure, monthly charges, senior citizen, and paperless billing.
 
 The model can be further enhanced to improve precision by incorporating additional features. Additionally, addressing class imbalance can involve trying alternative methods such as SMOTENC. Exploring different ensemble models, such as XGBoost, may provide diversity and improve overall performance. Lastly, implementing regularization techniques can help manage overfitting and contribute to precision improvement.
 
@@ -89,10 +89,6 @@ Introduce loyalty programs or exclusive offers for customers who have subscribed
 
 Consider adjusting pricing or offering service packages to meet customer needs and maintain affordable monthly rates. This can help alleviate financial pressure on customers.
 
-**Senior Citizen:**
+**Online Security_No:**
 
-Specifically for senior customers, offer additional services or features tailored to their needs. Pay attention to the preferences and comfort of senior customers in communication and interaction with services.
-
-**Paperless Billing_No:**
-
-Educate customers on the benefits and convenience of using paperless billing. Provide incentives or special discounts for customers switching to paperless billing methods.
+Implement targeted marketing campaigns to promote the benefits of adding online security to the subscription. Highlight the importance of online security in today's digital landscape and how it can enhance the overall customer experience. Consider providing a limited-time discount or a trial period to encourage customers to opt for online security, thus potentially reducing churn.
